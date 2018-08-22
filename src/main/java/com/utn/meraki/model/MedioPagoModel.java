@@ -2,17 +2,17 @@ package com.utn.meraki.model;
 
 import java.util.Date;
 
-public class ProvinciaModel {
-	
+public class MedioPagoModel {
+
 	//ATRIBUTOS
 	private String id;
 	
-	private String nombreProvincia;
+	private String nombreMedioPago;
 	
 	private Date fechaBaja;
 	
 	//CONSTRUCTOR
-	public ProvinciaModel() {
+	public MedioPagoModel() {
 	}
 
 	//GET AND SET
@@ -24,20 +24,21 @@ public class ProvinciaModel {
 		this.id = id;
 	}
 
-	public String getNombreProvincia() {
-		return nombreProvincia;
+	public String getNombreMedioPago() {
+		return nombreMedioPago;
 	}
 
-	public void setNombreProvincia(String nombreProvincia) {
-		this.nombreProvincia = nombreProvincia;
+	public void setNombreMedioPago(String nombreMedioPago) {
+		this.nombreMedioPago = nombreMedioPago;
 	}
 
 	public Date getFechaBaja() {
 		return fechaBaja;
 	}
+	
+	
 
 	public void setFechaBaja(Date fechaBaja) {
 		this.fechaBaja = fechaBaja;
 	}
-	
 }

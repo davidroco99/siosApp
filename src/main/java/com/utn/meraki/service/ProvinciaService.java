@@ -13,5 +13,11 @@ public interface ProvinciaService {
 	public abstract List<ProvinciaModel> listProvinciaVigente();
 	
 	public abstract ProvinciaModel habilitarProvincia(String id);
+	
+	public abstract ProvinciaModel deshabilitarProvincia(String id);
+	
+	public abstract ProvinciaModel getProvinciaById(String id);
+	
+	public abstract List<ProvinciaModel> listProvinciaTodas();
 
 }
